@@ -1,2 +1,4 @@
-# cursed-dreams-nwn
-Cursed Dreams is a built-from-the-ground-up horror module for Neverwinter Nights focused on the survival of the players in a land that is as hostile as the creatures found within it.
+# Cursed Dreams
+Cursed Dreams is a built-from-the-ground-up horror module for Neverwinter Nights focused on the survival of the players in a land that is as hostile as the creatures found within it. Heavily inspired by the numerous Zombie Survival genre of modules, Cursed Dreams seeks to reinvigorate the genre and free itself from the shackles of modules held down and back by the hands of numerous developers over 10+ years of development. It is my goal to recreate the magic and fear that old school Zombie Survival servers carried when players were first introduced to them without rehashing the same tired areas, creatures, and systems that regularly did more harm than good to the well being and integrity of the module and codebase.
+
+I will be making use of the Wiki and Projects sections of GitHub to outline my plans in detail going forward in the coming days.
