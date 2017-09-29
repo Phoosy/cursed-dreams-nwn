@@ -16,6 +16,7 @@ event in Module Properties. Still building this one out.
 
 void main()
 {
+/*  This shit don't work right apparently?
     SetLocalString(GetModule(),"NWNX!INIT","1");
     GetLocalObject(GetModule(), "NWNX!INIT");
 
@@ -26,8 +27,8 @@ void main()
     SetDMActionScript(DM_ACTION_CREATE_ITEM_ON_AREA, "_handler_dmact");
 
     SetGlobalEventHandler(EVENT_TYPE_PICKPOCKET, "_handler_event");
-
+*/
     // init nwnx_chat
-    dmb_ChatInit();
+//  dmb_ChatInit();
     SQLInit();
 }
