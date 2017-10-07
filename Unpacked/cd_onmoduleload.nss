@@ -9,14 +9,15 @@ event in Module Properties. Still building this one out.
 */
 
 #include "nwnx_chat"
-#include "nwnx_dmactions"
-#include "nwnx_events"
 #include "nwnx_odbc"
-#include "x2_inc_switches"
+//#include "nwnx_dmactions"
+//#include "nwnx_events"
+//#include "x2_inc_switches"
 
 void main()
 {
-/*  This shit don't work right apparently?
+/*  Commented out, not using yet so not configuring system to utilize until ready.
+
     SetLocalString(GetModule(),"NWNX!INIT","1");
     GetLocalObject(GetModule(), "NWNX!INIT");
 
@@ -29,6 +30,6 @@ void main()
     SetGlobalEventHandler(EVENT_TYPE_PICKPOCKET, "_handler_event");
 */
     // init nwnx_chat
-//  dmb_ChatInit();
+    dmb_ChatInit();
     SQLInit();
 }
