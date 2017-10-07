@@ -1,0 +1,24 @@
+CREATE TABLE `player_list` (
+  `id` int(11) NOT NULL DEFAULT '0' UNIQUE,
+  `player_name` varchar(64) NOT NULL DEFAULT ' ',
+  `cdkey` varchar(64) DEFAULT ' ',
+  `banned` datetime DEFAULT '1000-01-01 00:00:00',
+  `staff` varchar(64) DEFAULT 'player',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `char_list` (
+  `id` int(11) NOT NULL DEFAULT '0' UNIQUE,
+  `player_id` int(11) NOT NULL DEFAULT '0',
+  `char_name` varchar(64) NOT NULL DEFAULT ' ',
+  `class_choice` varchar(64) DEFAULT ' ',
+  `background` varchar(64) DEFAULT ' ',
+  `vocation` varchar(64) DEFAULT 'laborer',
+  `exp` int(11) DEFAULT '0',
+  `health` int(11) DEFAULT '0',
+  `dead` varchar(64) DEFAULT 'alive',
+  `area` varchar(64) DEFAULT ' ',
+  `location` varchar(64) DEFAULT ' ',
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`player_id`) REFERENCES player_list(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
