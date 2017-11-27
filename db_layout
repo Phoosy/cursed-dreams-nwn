@@ -2,6 +2,8 @@ CREATE TABLE `player_list` (
   `id` int(11) NOT NULL DEFAULT '0' UNIQUE,
   `player_name` varchar(64) NOT NULL DEFAULT ' ',
   `cdkey` varchar(64) DEFAULT ' ',
+  'publickey' varchar(64) DEFAULT ' ',
+  'beamdogkey' varchar(64) DEFAULT ' ',
   `banned` datetime DEFAULT '1000-01-01 00:00:00',
   `staff` varchar(64) DEFAULT 'player',
   PRIMARY KEY (`id`)
