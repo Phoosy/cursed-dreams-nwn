@@ -8,10 +8,12 @@ Main wrapper for the Cursed Dreams module, to be inserted into OnClientEnter
 event in Module Properties. Still building this one out.
 */
 
-#include "nwnx_chat"
+//#include "nwnx_chat"
 
 void main()
 {
+  /* Retrieves character data to DB, disabled due to no NWNX
   object oPC = GetEnteringObject();
   dmb_PCin(oPC);
+  */
 }
